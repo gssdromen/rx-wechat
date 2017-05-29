@@ -1,8 +1,56 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+    <!-- service -->
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.booter.cache.CacheService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.accountsync.model.ContactsSyncService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.crash.CrashUploaderService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.sandbox.monitor.ExceptionMonitorService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.facedetect.service.FaceDetectProcessService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.facedetect.service.FaceUploadVideoService" sender="any"/>
+
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.booter.CoreService$InnerService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.sandbox.monitor.ExceptionMonitorService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.exdevice.service.ExDeviceService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.tinker.lib.service.DefaultTinkerResultService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.crash.CrashUploaderService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.recovery.service.RecoveryReportService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.modelrecovery.RecoveryTinkerResultService" sender="any"/>
+
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.remoteservice.RemoteService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.hp.tinker.TinkerPatchResultService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.tinker.lib.service.TinkerPatchService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.sandbox.updater.UpdaterService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.modelvoiceaction.VoiceActionService" sender="any"/>
+
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.recovery.wx.service.WXRecoveryHandleService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.recovery.wx.service.WXRecoveryUploadService" sender="any"/>
+    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.wear.model.service.WearDataLayerService" sender="any"/>
+
+    <!-- broadcast -->
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver1" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver2" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver3" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver4" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.photoedit.cache.ArtistCacheManager" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.backup.bakoldmodel.BakOldUSBReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.BluetoothReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.BluetoothStateReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.ClickFlowReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.sandbox.monitor.CrashUploadAlarmReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.InstallReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.auto.service.MMAutoMessageHeardReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.auto.service.MMAutoMessageReplyReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MMReceivers$AlarmReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MMReceivers$ExdeviceProcessReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MMReceivers$ConnectionReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MMReceivers$SandBoxProcessReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MMReceivers$ToolsProcessReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MountReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.NotifyReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.exdevice.devicestep.StepAwakeAlarmReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.modelstat.WatchDogPushReceiver" sender="any"/>
+
 </prescriptions>
