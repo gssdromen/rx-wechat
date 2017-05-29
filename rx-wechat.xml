@@ -7,7 +7,6 @@
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.facedetect.service.FaceDetectProcessService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.facedetect.service.FaceUploadVideoService" sender="any"/>
 
-    <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.booter.CoreService$InnerService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.sandbox.monitor.ExceptionMonitorService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.mm.plugin.exdevice.service.ExDeviceService" sender="any"/>
     <prescription type="service" package="com.tencent.mm" class="com.tencent.tinker.lib.service.DefaultTinkerResultService" sender="any"/>
