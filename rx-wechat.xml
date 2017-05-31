@@ -48,7 +48,6 @@
     <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MMReceivers$SandBoxProcessReceiver" sender="any"/>
     <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MMReceivers$ToolsProcessReceiver" sender="any"/>
     <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.MountReceiver" sender="any"/>
-    <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.booter.NotifyReceiver" sender="any"/>
     <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.plugin.exdevice.devicestep.StepAwakeAlarmReceiver" sender="any"/>
     <prescription type="broadcast" package="com.tencent.mm" class="com.tencent.mm.modelstat.WatchDogPushReceiver" sender="any"/>
 
